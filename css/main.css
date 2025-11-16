@@ -332,29 +332,33 @@ ul {
 }
 
 .btn-primary {
-  background-color: var(--primary);
-  color: var(--white);
-  border-color: var(--primary);
+  background-color: var(--white);
+  color: var(--primary);
+  border-color: var(--white);
+  font-weight: 700;
+  padding: var(--space-4) var(--space-8);
 }
 
 .btn-primary:hover {
-  background-color: var(--primary-dark);
-  border-color: var(--primary-dark);
+  background-color: var(--light);
+  border-color: var(--light);
   transform: translateY(-2px);
-  box-shadow: var(--shadow-lg);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
 }
 
 .btn-secondary {
   background-color: transparent;
   color: var(--white);
   border-color: var(--white);
+  font-weight: 600;
+  padding: var(--space-3) var(--space-6);
 }
 
 .btn-secondary:hover {
   background-color: var(--white);
   color: var(--primary);
   transform: translateY(-2px);
-  box-shadow: var(--shadow-lg);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
 }
 
 .btn-full-width {
