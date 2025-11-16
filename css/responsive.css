@@ -250,12 +250,32 @@
     padding: 0 var(--space-4);
   }
 
-  .hero-content {
-    padding: 0 var(--space-4);
+  .hero-container {
+    padding: 0 var(--space-6);
+  }
+
+  .hero-grid {
+    grid-template-columns: 1fr;
+    gap: var(--space-8);
+    text-align: center;
+  }
+
+  .hero-visual {
+    margin-bottom: var(--space-6);
+  }
+
+  .hero-card {
+    width: 320px;
+    height: 400px;
   }
 
   .hero-title {
-    font-size: var(--font-size-5xl);
+    font-size: var(--font-size-4xl);
+  }
+
+  .hero-stats {
+    grid-template-columns: repeat(3, 1fr);
+    gap: var(--space-4);
   }
 
   .services-grid {
