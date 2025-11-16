@@ -289,14 +289,27 @@ ul {
   z-index: 3;
 }
 
-.hero-content {
+.hero-container {
   position: relative;
   z-index: 3;
-  text-align: center;
-  color: var(--white);
-  max-width: 800px;
+  max-width: 1400px;
   margin: 0 auto;
-  padding: 0 var(--space-6);
+  padding: 0 var(--space-8);
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+.hero-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--space-16);
+  align-items: center;
+  height: 100%;
+}
+
+.hero-text {
+  max-width: 600px;
 }
 
 .hero-title {
