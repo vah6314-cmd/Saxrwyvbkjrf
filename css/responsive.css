@@ -297,7 +297,7 @@
   }
 
   .hero-grid {
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr;
     gap: var(--space-8);
     text-align: center;
   }
@@ -306,9 +306,24 @@
     margin-bottom: var(--space-6);
   }
 
-  .hero-card {
-    width: 320px;
-    height: 400px;
+  .showcase-grid {
+    grid-template-columns: 1fr;
+    gap: var(--space-3);
+  }
+
+  .device-frame.desktop {
+    width: 140px;
+    height: 90px;
+  }
+
+  .device-frame.tablet {
+    width: 100px;
+    height: 70px;
+  }
+
+  .device-frame.mobile {
+    width: 70px;
+    height: 50px;
   }
 
   .hero-title {
