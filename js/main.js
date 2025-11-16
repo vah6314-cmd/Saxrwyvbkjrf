@@ -328,8 +328,7 @@ function updateCarousel() {
           ${project.technologies.map(tech => `<span class="tech-tag">${tech}</span>`).join('')}
         </div>
         <div class="carousel-buttons">
-          <a href="${project.liveUrl}" class="btn btn-primary" target="_blank">View Live Site</a>
-          <a href="${project.detailsUrl}" class="btn btn-secondary">Project Details</a>
+          <a href="${project.detailsUrl}" class="btn btn-primary">Project Details</a>
         </div>
       </div>
     </div>
