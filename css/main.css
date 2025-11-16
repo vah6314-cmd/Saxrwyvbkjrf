@@ -344,33 +344,35 @@ ul {
 }
 
 .btn-primary {
-  background-color: var(--white);
+  background: linear-gradient(135deg, var(--white) 0%, var(--light) 100%);
   color: var(--primary);
-  border-color: var(--white);
+  border: 2px solid var(--white);
   font-weight: 700;
   padding: var(--space-4) var(--space-8);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
 }
 
 .btn-primary:hover {
-  background-color: var(--light);
+  background: linear-gradient(135deg, var(--light) 0%, var(--white) 100%);
   border-color: var(--light);
-  transform: translateY(-2px);
-  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+  transform: translateY(-3px);
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
 }
 
 .btn-secondary {
-  background-color: transparent;
+  background: transparent;
   color: var(--white);
-  border-color: var(--white);
+  border: 2px solid var(--white);
   font-weight: 600;
   padding: var(--space-3) var(--space-6);
+  backdrop-filter: blur(10px);
 }
 
 .btn-secondary:hover {
-  background-color: var(--white);
+  background: var(--white);
   color: var(--primary);
-  transform: translateY(-2px);
-  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+  transform: translateY(-3px);
+  box-shadow: 0 8px 30px rgba(255, 255, 255, 0.3);
 }
 
 .btn-full-width {
